@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="dataDriven1">
+<test name="hmm">
+<classes>
+<class name="TestNG_DataDriven_One.validUNM_validPWD" />
+<class name="TestNG_DataDriven_One.InvalidUNM" />
+<class name="TestNG_DataDriven_One.InvalidPWD" />
+<class name="TestNG_DataDriven_One.BothInvalid" />
+</classes>
+</test>
+</suite>

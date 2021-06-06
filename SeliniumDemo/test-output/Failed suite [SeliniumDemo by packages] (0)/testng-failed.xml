@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [SeliniumDemo by packages] (0)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG(failed)(failed)">
+    <classes>
+      <class name="TestNG.BeforeAfterSuiteAnnotation">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="google"/>
+        </methods>
+      </class> <!-- TestNG.BeforeAfterSuiteAnnotation -->
+    </classes>
+  </test> <!-- TestNG(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SeliniumDemo by packages] (0)] -->

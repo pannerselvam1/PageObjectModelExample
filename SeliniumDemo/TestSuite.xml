@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="multipleTest">
+<test name="test1">
+<classes>
+<class name="TestNG.TestUsingPriority"></class>
+</classes>
+</test>
+<test  name="test2">
+<classes>
+<class name="TestNG.BeforeAfterSuiteAnnotation"></class>
+</classes>
+</test>
+</suite>
